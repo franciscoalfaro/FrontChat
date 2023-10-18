@@ -13,6 +13,8 @@ export const PrivateLayout = () => {
                 <div className="row">
                     <Header></Header>
 
+                    <Sidebar></Sidebar>
+
    
 
                     {auth._id ? <Outlet></Outlet> : <Navigate to="/login"></Navigate>}

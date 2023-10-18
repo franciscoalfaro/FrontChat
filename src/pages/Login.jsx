@@ -86,17 +86,18 @@ export const Login = () => {
                     <form onSubmit={loginUser}>
                         <input type="email" name="email" placeholder="Correo electrónico" onChange={changed}></input>
                         <input type="password" name="password" placeholder="Contraseña" onChange={changed} required></input>
+
                         <button type="submit">Ingresar</button>
                     </form>
                     <div className="form-group mt-3">
-                    <ul className="nav justify-content-center">
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/registro">
-                                <span>Registrate</span>
-                            </NavLink>
-                        </li>
-                    </ul>
-                </div>
+                        <ul className="nav justify-content-center">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/registro">
+                                    <span>Nueva cuenta?</span>
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
 
